@@ -3,7 +3,7 @@
 This project is a 1v1 **Rock, Paper, Scissors game** built using ESP32 boards. Players use buttons on their ESP32 devices to select and confirm their moves, and the results are displayed on the onboard screens. The boards communicate wirelessly using ESP-NOW to ensure a seamless and real-time gaming experience.
 
 ### **Blog Post Link**
-
+https://gusty-tail-7d3.notion.site/1v1-Rock-Paper-Scissors-14a5621b054b809da6b1c0c57c539f3f?pvs=4
 ---
 
 ### **Design Goals**
