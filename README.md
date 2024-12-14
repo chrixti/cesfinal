@@ -32,13 +32,13 @@ This project is a 1v1 **Rock, Paper, Scissors game** built using ESP32 boards. P
 #### **Hardware Setup**
 - **Components**:
   - 2 ESP32 boards (one per player).
-  - 2 buttons for each ESP32 (left and right).
   - 1 speaker per ESP32 for sound feedback.
   - Power supply via USB.
   
 - **Circuit Diagram**:
-![Fritzing Diagram](fritzing_diagram.png)  
-_(Replace the placeholder with the actual fritzing diagram customized for your setup)_
+![Fritzing Diagram]
+<img width="430" alt="esp32-speaker" src="https://github.com/user-attachments/assets/3fd04f88-de25-4dcc-bb6b-5c91b9ad6140" />
+
 
 #### **3D Enclosure**
 - Print the provided 3D enclosure files to house the ESP32 boards.
