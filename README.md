@@ -73,10 +73,7 @@ player 2 folder/
 ---
 
 ### **Video of the Game in Action**
-
-### **Supplementary Images**
-
-### **Acknowledgments**
+https://youtu.be/raxrT9d4E1g
 
 
 
