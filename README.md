@@ -1,2 +1,83 @@
-# cesfinal
-1v1 rock paper scissors game with ESP32 T-Display
+# Rock, Paper, Scissors ESP32 Game
+
+This project is a 1v1 **Rock, Paper, Scissors game** built using ESP32 boards. Players use buttons on their ESP32 devices to select and confirm their moves, and the results are displayed on the onboard screens. The boards communicate wirelessly using ESP-NOW to ensure a seamless and real-time gaming experience.
+
+### **Blog Post Link**
+
+---
+
+### **Design Goals**
+
+- Create a portable, wireless **Rock, Paper, Scissors** game using ESP32 boards.
+- Ensure privacy for each player's moves by displaying choices on the ESP32 screens.
+- Incorporate retro pixel art using bitmaps for a nostalgic gaming feel.
+- Provide auditory feedback for move confirmation and game results using small speakers.
+- Keep the hardware setup simple and easy to replicate.
+
+---
+
+### **Gameplay Workflow**
+
+1. **Player Setup**: Each player uses an ESP32 board.
+2. **Game Interaction**:
+   - **Left Button**: Cycles through Rock, Paper, Scissors options.
+   - **Right Button**: Confirms the selected move.
+3. **Wireless Communication**: ESP-NOW handles real-time communication between the boards.
+4. **Game Results**: After both players confirm their moves, results are displayed on each ESP32 screen.
+
+---
+
+### **Installation Instructions**
+
+#### **Hardware Setup**
+- **Components**:
+  - 2 ESP32 boards (one per player).
+  - 2 buttons for each ESP32 (left and right).
+  - 1 speaker per ESP32 for sound feedback.
+  - Power supply via USB.
+  
+- **Circuit Diagram**:
+![Fritzing Diagram](fritzing_diagram.png)  
+_(Replace the placeholder with the actual fritzing diagram customized for your setup)_
+
+#### **3D Enclosure**
+- Print the provided 3D enclosure files to house the ESP32 boards.
+- Ensure slots for buttons, USB ports, and the speaker are aligned properly.
+
+---
+
+### **Code and Files**
+
+#### **File Structure**
+player 1 folder/
+├── paper_bitmap.h
+├── scissors_bitmap.h
+├── rock_bitmap.h
+├── player1.ino
+
+player 2 folder/
+├── paper_bitmap.h
+├── scissors_bitmap.h
+├── rock_bitmap.h
+├── player2.ino
+
+1. **player1.ino**: Code for Player 1’s ESP32.
+2. **player2.ino**: Code for Player 2’s ESP32.
+3. **Bitmap Files**: These header files contain the pixel art for Rock, Paper, and Scissors.
+
+#### **Setup Steps**
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/chrixti/cesfinal.git
+
+---
+
+### **Video of the Game in Action**
+
+### **Supplementary Images**
+
+### **Acknowledgments**
+
+
+
+
